@@ -2,6 +2,7 @@ import java.awt.*;
 import javax.swing.*;
 
 public class LottoMadness extends JFrame {
+    
     // set up row 1
     JPanel row1 = new JPanel();
     ButtonGroup option = new ButtonGroup();

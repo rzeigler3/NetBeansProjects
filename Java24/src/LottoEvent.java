@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.awt.event.*;
 
-public class LottoEvent implements ItemListener, ActionListener, Runnable{
+public class LottoEvent implements ItemListener, ActionListener, Runnable {
 
     LottoMadness gui;
     Thread playing;
@@ -10,7 +10,7 @@ public class LottoEvent implements ItemListener, ActionListener, Runnable{
         gui = in;
     }
     
-    public void actionperformed(ActionEvent event) {
+    public void actionPerformed(ActionEvent event) {
         String command = event.getActionCommand();
         if (command.equals("Play")) {
             startPlaying();
